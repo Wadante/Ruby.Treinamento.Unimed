@@ -1,0 +1,10 @@
+---
+
+default: --profile progress -p producao -p html
+pretty: --format pretty
+progress: --format progress
+html: --format html --out=reports/relatorio.html
+
+producao: AMBIENTE=prod
+desenvolvimento: AMBIENTE=dev
+homolog: AMBIENTE=hml
